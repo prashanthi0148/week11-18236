@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Device-Responsive CSS:W3Schools webpage</title>
+	<style>
+	body { text-align: center; }
+	iframe { border: none ; }
+	@media (max-width: 480px) {
+		iframe {
+			display: block;
+			margin: 0 auto 1em;
+		}
+	}
+	</style>
+</head>
+<body>
+	<iframe src="main.html" height="500" scrolling="no" width="500"></iframe>
+	<iframe src="main.html" height="500" scrolling="no" width="500"></iframe>
+	<iframe src="main.html" height="500" scrolling="no" width="500"></iframe>
+</body>
+</html>
